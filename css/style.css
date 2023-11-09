@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background-color:aliceblue;
+}
+header{
+    background-image: url("../images/hi-tech-concepts-on-blue-background-header.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: azure;
+}
+h1:hover{
+    font-size: 3em;
+}
+main {
+    width: 100%;
+}
+.categories{
+    color: white;
+    display: flex;
+    font-size: 2em;
+    background-color:white;
+    padding: 0.2em;
+    margin: 0.5em auto;
+    width: 80%;
+}
+.categories > *{
+    margin-left: 0.2em;
+    background-color:midnightblue;
+    border-radius: 1em;
+    width: 20%;
+    text-align: center;
+    padding: 0.2em;
+}
+.categories a{
+    text-decoration:none;
+    color: white;
+}
+.informations{
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories > div:hover {
+    background-color: white;
+    border: 2px solid midnightblue;
+
+}
+.categories > div:hover a {
+    background-color: white;
+    color: midnightblue;
+}
